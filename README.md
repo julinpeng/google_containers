@@ -1,5 +1,11 @@
-# google_containers
-一些国内无法下载的镜像
+# google_containers 
+一些国内无法下载的镜像。
+
+## [`gcr.io/distroless`](images/distroless/Dockerfile) 
+
+```
+registry.cn-hangzhou.aliyuncs.com/gcr_containers/distroless 
+```
 
 ## [`k8s.gcr.io/kube-apiserver`](images/kube-apiserver/Dockerfile)
 
@@ -10,7 +16,7 @@
 ## [`k8s.gcr.io/kube-controller-manager`](images/kube-controller-manager/Dockerfile)
 
   > `registry.cn-hangzhou.aliyuncs.com/gcr_k8s_containers/kube-controller-manager`
-  
+
   - v1.14.2
 
 ## [`k8s.gcr.io/kube-scheduler`](images/kube-scheduler/Dockerfile)
@@ -22,7 +28,7 @@
 ## [`k8s.gcr.io/kube-proxy`](images/kube-proxy/Dockerfile)
 
   > `registry.cn-hangzhou.aliyuncs.com/gcr_k8s_containers/kube-proxy`
-  
+
   - v1.14.2
 
 ## [`k8s.gcr.io/pause`](images/pause/amd64/Dockerfile)
@@ -64,7 +70,7 @@
 ## [`gcr.io/kaniko-project/executor`](images/kaniko-project/executor/Dockerfile)
 
   > `registry.cn-hangzhou.aliyuncs.com/gcr_k8s_containers/kaniko_project-executor`
-  
+
   
 
 ## [`k8s.gcr.io/ingress-nginx/controller`](images/ingress-nginx/Dockerfile)
