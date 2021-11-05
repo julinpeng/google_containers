@@ -4,7 +4,7 @@
 ## [`gcr.io/distroless`](images/distroless/Dockerfile) 
 
 ```
-registry.cn-hangzhou.aliyuncs.com/gcr_containers/distroless 
+registry.cn-hangzhou.aliyuncs.com/gcr_containerx/distroless:[镜像版本号] 
 ```
 
 ## [`k8s.gcr.io/kube-apiserver`](images/kube-apiserver/Dockerfile)
